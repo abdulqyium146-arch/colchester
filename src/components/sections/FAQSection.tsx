@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How quickly can you carry out an emergency roof inspection?",
     answer:
-      "We offer same-day emergency roof inspections for urgent situations such as storm damage, active leaks, fallen trees or structural concerns. Call us on 01206 123456 and we&apos;ll arrange attendance as quickly as possible. Emergency inspections are available 7 days a week.",
+      "We offer same-day emergency roof inspections for urgent situations such as storm damage, active leaks, fallen trees or structural concerns. Call us on +44 333 567 5656 and we&apos;ll arrange attendance as quickly as possible. Emergency inspections are available 7 days a week.",
   },
   {
     question: "Will my report be suitable for an insurance claim?",
@@ -137,10 +137,10 @@ export default function FAQSection({ showAll = false }: { showAll?: boolean }) {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="tel:01206123456"
+                href="tel:+443335675656"
                 className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-6 py-3 rounded-xl transition-all"
               >
-                Call 01206 123456
+                Call +44 333 567 5656
               </a>
               <a
                 href="/faq"

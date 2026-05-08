@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/metadata";
 import { localBusinessSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
@@ -10,7 +10,7 @@ import { COMPANY } from "@/lib/utils";
 export const metadata: Metadata = buildMetadata({
   title: "Roof Inspection Colchester CO1–CO6 — Local Expert Roof Surveyors",
   description:
-    "Expert roof inspections in Colchester CO1–CO6. Local surveyors serving all Colchester postcodes. Professional assessments from £149 with 24hr reports. Call 01206 123456.",
+    "Expert roof inspections in Colchester CO1–CO6. Local surveyors serving all Colchester postcodes. Professional assessments from £149 with 24hr reports. Call +44 333 567 5656.",
   path: "/colchester-roof-inspection",
   keywords: [
     "roof inspection colchester co1",

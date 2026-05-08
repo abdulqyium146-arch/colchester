@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/metadata";
 import { serviceSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
@@ -141,9 +141,9 @@ export default function HomebuyerRoofReportsPage() {
                 </p>
               </div>
               <div className="flex gap-4">
-                <a href="tel:01206123456" className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-xl transition-all">
+                <a href="tel:+443335675656" className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-xl transition-all">
                   <Phone className="w-4 h-4" />
-                  01206 123456
+                  +44 333 567 5656
                 </a>
                 <Link href="/contact" className="flex items-center gap-2 border border-slate-700 hover:border-amber-500 text-white hover:text-amber-400 font-semibold px-6 py-3.5 rounded-xl transition-all">
                   Book Online <ArrowRight className="w-4 h-4" />

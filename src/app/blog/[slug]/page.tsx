@@ -62,7 +62,7 @@ Regular inspection is, simply put, the most cost-effective maintenance decision 
 
 ## Book Your Colchester Roof Inspection
 
-If you cannot remember the last time your roof was professionally inspected, now is the right time. Call A1 Roof Repairs Colchester on **01206 123456** to book an inspection, or submit an enquiry online.
+If you cannot remember the last time your roof was professionally inspected, now is the right time. Call A1 Roof Repairs Colchester on **+44 333 567 5656** to book an inspection, or submit an enquiry online.
     `,
   },
   "signs-your-roof-needs-inspection-colchester": {
@@ -118,7 +118,7 @@ If your Colchester property is over 15 years old and you cannot recall the last 
 
 ## Book an Inspection
 
-Spotted any of these signs? Call A1 Roof Repairs Colchester on **01206 123456** for a professional assessment. We cover all Colchester postcodes and across Essex.
+Spotted any of these signs? Call A1 Roof Repairs Colchester on **+44 333 567 5656** for a professional assessment. We cover all Colchester postcodes and across Essex.
     `,
   },
 };
@@ -228,10 +228,10 @@ export default async function BlogPostPage({
                   Professional roof inspections from £149. Written report within 24 hours.
                 </p>
                 <a
-                  href="tel:01206123456"
+                  href="tel:+443335675656"
                   className="block text-center bg-amber-500 hover:bg-amber-600 text-white font-bold px-4 py-3 rounded-xl transition-all text-sm mb-2"
                 >
-                  01206 123456
+                  +44 333 567 5656
                 </a>
                 <Link
                   href="/contact"

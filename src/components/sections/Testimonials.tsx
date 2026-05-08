@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
@@ -179,7 +179,7 @@ export default function Testimonials() {
             Independent roof inspections from £149 — written report delivered within 24 hours
           </p>
           <a
-            href="tel:01206123456"
+            href="tel:+443335675656"
             className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3 rounded-xl transition-all"
           >
             Book Your Inspection Today

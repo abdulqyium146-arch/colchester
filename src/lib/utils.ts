@@ -12,8 +12,8 @@ export function formatPhoneNumber(phone: string): string {
 export const COMPANY = {
   name: "A1 Roof Repairs Colchester",
   shortName: "A1 Roof Repairs",
-  phone: "01206 123456",
-  phonePlain: "01206123456",
+  phone: "+44 333 567 5656",
+  phonePlain: "+443335675656",
   email: "info@a1roofrepairscolchester.co.uk",
   address: {
     street: "123 High Street",

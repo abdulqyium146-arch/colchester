@@ -1,4 +1,4 @@
-import { AlertCircle, Droplets, Wind, Layers, ArrowRight } from "lucide-react";
+﻿import { AlertCircle, Droplets, Wind, Layers, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 const problems = [
@@ -129,7 +129,7 @@ export default function RoofProblems() {
           </div>
           <div className="flex flex-col sm:flex-row gap-3 shrink-0">
             <a
-              href="tel:01206123456"
+              href="tel:+443335675656"
               className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-bold px-6 py-3.5 rounded-xl transition-all"
             >
               Call Now

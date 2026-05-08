@@ -1,4 +1,4 @@
-import { Phone, Calendar, Search, FileText, CheckCircle } from "lucide-react";
+﻿import { Phone, Calendar, Search, FileText, CheckCircle } from "lucide-react";
 
 const steps = [
   {
@@ -126,11 +126,11 @@ export default function Process() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <a
-            href="tel:01206123456"
+            href="tel:+443335675656"
             className="inline-flex items-center gap-3 bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-2xl hover:shadow-amber-500/30 text-lg"
           >
             <Phone className="w-5 h-5" />
-            Start the Process — Call 01206 123456
+            Start the Process — Call +44 333 567 5656
           </a>
           <p className="text-slate-500 text-sm mt-4">
             Most inspections available within 48 hours. Emergency same-day available.

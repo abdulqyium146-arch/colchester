@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/metadata";
 import { serviceSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
@@ -9,7 +9,7 @@ import CTABanner from "@/components/sections/CTABanner";
 export const metadata: Metadata = buildMetadata({
   title: "Emergency Roof Inspection Colchester — Same-Day Emergency Roof Surveys",
   description:
-    "24/7 emergency roof inspections in Colchester. Same-day response for storm damage, leaks and urgent roof failures. Call 01206 123456 now.",
+    "24/7 emergency roof inspections in Colchester. Same-day response for storm damage, leaks and urgent roof failures. Call +44 333 567 5656 now.",
   path: "/emergency-roof-inspection",
   keywords: [
     "emergency roof inspection colchester",
@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "How quickly can you attend an emergency roof inspection in Colchester?",
     answer:
-      "For genuine emergencies such as storm damage with active water ingress or structural concerns, we aim to attend within 2–4 hours of your call during business hours, and within a few hours for out-of-hours emergencies. Call 01206 123456 immediately.",
+      "For genuine emergencies such as storm damage with active water ingress or structural concerns, we aim to attend within 2–4 hours of your call during business hours, and within a few hours for out-of-hours emergencies. Call +44 333 567 5656 immediately.",
   },
   {
     question: "What counts as an emergency roof inspection?",
@@ -92,11 +92,11 @@ export default function EmergencyRoofInspectionPage() {
 
             {/* BIG CALL TO ACTION */}
             <a
-              href="tel:01206123456"
+              href="tel:+443335675656"
               className="inline-flex items-center justify-center gap-3 bg-red-500 hover:bg-red-600 text-white font-black text-xl px-8 py-5 rounded-2xl transition-all hover:shadow-2xl hover:shadow-red-500/30 hover:-translate-y-1 mb-4"
             >
               <Phone className="w-6 h-6" />
-              01206 123456
+              +44 333 567 5656
             </a>
             <p className="text-slate-400 text-sm">Available 24 hours a day, 7 days a week</p>
           </div>
@@ -133,7 +133,7 @@ export default function EmergencyRoofInspectionPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
-              { step: "1", icon: Phone, title: "Call Immediately", desc: "Call 01206 123456. We assess urgency and dispatch the nearest available surveyor." },
+              { step: "1", icon: Phone, title: "Call Immediately", desc: "Call +44 333 567 5656. We assess urgency and dispatch the nearest available surveyor." },
               { step: "2", icon: Clock, title: "Fast Attendance", desc: "Surveyor attends within 2–4 hours. Structural safety assessed first." },
               { step: "3", icon: AlertTriangle, title: "Full Assessment", desc: "Comprehensive inspection documenting all damage with photographs and measurements." },
               { step: "4", icon: Shield, title: "Report & Advice", desc: "Emergency report produced same-day. Insurance-ready documentation and next-step advice." },

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import { localBusinessSchema, faqSchema } from "@/lib/schema";
 import Hero from "@/components/sections/Hero";
@@ -15,7 +15,7 @@ import CTABanner from "@/components/sections/CTABanner";
 export const metadata: Metadata = buildMetadata({
   title: "Roof Inspections Colchester — Expert Roof Surveys & Drone Inspections",
   description:
-    "A1 Roof Repairs Colchester: Professional roof inspections, surveys and drone assessments across Essex. Independent reports from £149, delivered within 24 hours. Call 01206 123456.",
+    "A1 Roof Repairs Colchester: Professional roof inspections, surveys and drone assessments across Essex. Independent reports from £149, delivered within 24 hours. Call +44 333 567 5656.",
   path: "/",
   keywords: [
     "roof inspection colchester",

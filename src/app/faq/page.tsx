@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import { faqSchema, breadcrumbSchema } from "@/lib/schema";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
@@ -20,7 +20,7 @@ const allFAQs = [
   { question: "Do I need a roof inspection before buying a house?", answer: "Yes — strongly recommended. Standard homebuyer surveys often lack detailed roof assessment. Our pre-purchase homebuyer roof reports specifically focus on roof condition, identifying defects that could cost thousands to repair. Many clients use the findings to renegotiate purchase prices or budget accurately for future works." },
   { question: "What areas around Colchester do you cover?", answer: "We cover the full Colchester and Essex area including Chelmsford, Braintree, Witham, Clacton-on-Sea, Halstead, Sudbury, Ipswich (Suffolk), Harwich, Mersea Island, Tiptree, Coggeshall, Dedham, Manningtree, Wivenhoe and all surrounding villages and towns within approximately 30 miles of Colchester." },
   { question: "What is a drone roof inspection and when is it needed?", answer: "A drone roof inspection uses a CAA-licensed unmanned aerial vehicle to capture high-resolution 4K footage and photographs of your roof from directly above and at close proximity. It is ideal for roofs that are difficult or dangerous to access, multi-storey buildings, large commercial properties, and any roof where physical access would be unsafe or impractical." },
-  { question: "How quickly can you carry out an emergency roof inspection?", answer: "We offer same-day emergency roof inspections for urgent situations such as storm damage, active leaks, fallen trees or structural concerns. Call us on 01206 123456 and we'll arrange attendance as quickly as possible. Emergency inspections are available 7 days a week." },
+  { question: "How quickly can you carry out an emergency roof inspection?", answer: "We offer same-day emergency roof inspections for urgent situations such as storm damage, active leaks, fallen trees or structural concerns. Call us on +44 333 567 5656 and we'll arrange attendance as quickly as possible. Emergency inspections are available 7 days a week." },
   { question: "Will my report be suitable for an insurance claim?", answer: "Yes. Our professional inspection reports are widely accepted by UK insurers for damage claims, policy renewals and disputes. The reports include professional certification, detailed photographic evidence and surveyor sign-off. We have successfully supported hundreds of insurance claims across Essex." },
   { question: "Can you identify the source of a roof leak?", answer: "Yes. We offer specialist roof leak investigation using visual inspection, thermal imaging and moisture mapping to locate the exact source of leaks — including those where the entry point is not directly above the visible water ingress." },
   { question: "Is it worth getting a roof inspection on a new-build property?", answer: "Absolutely. New-build roofs can and do have defects including incorrectly laid tiles, inadequate flashing, insufficient ventilation and substandard workmanship. A post-completion inspection within the developer warranty period allows defects to be identified and remedied at no cost to you." },
@@ -72,7 +72,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <CTABanner title="Still Have Questions?" subtitle="Call us for free expert advice on 01206 123456 or submit an enquiry online." variant="light" />
+      <CTABanner title="Still Have Questions?" subtitle="Call us for free expert advice on +44 333 567 5656 or submit an enquiry online." variant="light" />
     </>
   );
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import { breadcrumbSchema } from "@/lib/schema";
 import Breadcrumbs from "@/components/shared/Breadcrumbs";
@@ -9,7 +9,7 @@ import { COMPANY } from "@/lib/utils";
 export const metadata: Metadata = buildMetadata({
   title: "Contact A1 Roof Repairs Colchester — Book a Roof Inspection",
   description:
-    "Contact A1 Roof Repairs Colchester to book a roof inspection or survey. Call 01206 123456 or submit an enquiry online. Emergency same-day response available.",
+    "Contact A1 Roof Repairs Colchester to book a roof inspection or survey. Call +44 333 567 5656 or submit an enquiry online. Emergency same-day response available.",
   path: "/contact",
 });
 
