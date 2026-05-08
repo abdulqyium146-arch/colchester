@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { COMPANY } from "./utils";
 
-const BASE_URL = "https://www.a1roofrepairscolchester.co.uk";
+const BASE_URL = "https://a1roofrepairscolchester.co.uk";
 const DEFAULT_OG_IMAGE = "/og-default.jpg";
 
 export function buildMetadata({

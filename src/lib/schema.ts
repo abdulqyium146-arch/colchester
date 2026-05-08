@@ -1,6 +1,6 @@
 import { COMPANY } from "./utils";
 
-const BASE_URL = "https://www.a1roofrepairscolchester.co.uk";
+const BASE_URL = "https://a1roofrepairscolchester.co.uk";
 
 export function localBusinessSchema() {
   return {

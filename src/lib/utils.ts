@@ -32,6 +32,7 @@ export const COMPANY = {
     sunday: "Emergency calls only",
   },
   emergency: "24/7 Emergency",
+  url: "https://a1roofrepairscolchester.co.uk",
   social: {
     facebook: "https://facebook.com/a1roofrepairscolchester",
     instagram: "https://instagram.com/a1roofrepairscolchester",

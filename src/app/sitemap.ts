@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://www.a1roofrepairscolchester.co.uk";
+const BASE_URL = "https://a1roofrepairscolchester.co.uk";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages = [

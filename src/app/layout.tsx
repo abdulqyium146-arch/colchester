@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.a1roofrepairscolchester.co.uk"),
+  metadataBase: new URL("https://a1roofrepairscolchester.co.uk"),
   title: {
     default: `${COMPANY.name} — Expert Roof Inspections & Surveys`,
     template: `%s | ${COMPANY.name}`,

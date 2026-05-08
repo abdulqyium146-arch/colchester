@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://www.a1roofrepairscolchester.co.uk/sitemap.xml",
+    sitemap: "https://a1roofrepairscolchester.co.uk/sitemap.xml",
   };
 }
