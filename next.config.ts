@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import path from "path";
 
 const nextConfig: NextConfig = {
   images: {
@@ -7,9 +6,6 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ["lucide-react"],
-    turbopack: {
-      root: path.resolve(__dirname),
-    },
   },
   headers: async () => [
     {
